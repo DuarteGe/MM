@@ -26,8 +26,7 @@
 
 body{
     background-color: var(--cor00);
-    width: 100%;
-
+    font-family: var(--fonteGeral);
 }
 
 
@@ -42,14 +41,17 @@ header h1{
     text-align: center;
     padding-top: 30px;
     color: white;
-    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.521);
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.719);
+    font-family: var(--fonteDestaque);
+    font-size: 4em;
 }
 
 
 nav{
     background-color: var(--cor06);
-    margin-bottom: 10px;
-
+    box-shadow: 0ppx 7px 7px rgba(0, 0,0 , 0.705);
+    padding: 10px;
+    
 }
 nav a{
     padding: 5px;
@@ -58,6 +60,8 @@ nav a{
     text-decoration: none;
     color: white;
     transition-duration: .5s;
+    font-weight: bolder;
+    
     
 }
 nav a:hover{
@@ -77,11 +81,13 @@ main{
 main h1{
     padding-top: 10px;
     text-indent: 10px;
+    text-align: center;
 }
-main p{
-    text-align: justify;
+main h3{
+    text-align: center;
     padding: 10px;
     text-indent: 15px;
+    font-weight: normal;
 }
 
 
