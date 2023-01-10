@@ -37,6 +37,14 @@ header{
     margin: auto;
     min-height: 150px;
 }
+header a{
+    text-decoration: none;
+}
+header img{
+    width: 10%;
+    display:;
+    
+}
 header h1{
     text-align: center;
     padding-top: 30px;
@@ -66,6 +74,7 @@ nav a{
 }
 nav a:hover{
     background-color:var(--cor01);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.459);
 }
 
 main{
@@ -79,15 +88,18 @@ main{
     max-width: 1000px;
 }
 main h1{
-    padding-top: 10px;
+    padding-top: 40px;
     text-indent: 10px;
     text-align: center;
 }
 main h3{
-    text-align: center;
-    padding: 10px;
-    text-indent: 15px;
+    text-align: justify;
+    padding: 40px 10px 0px 10px;
+    text-indent: 30px;
     font-weight: normal;
+    min-width: 300px;
+    max-width: 700px;
+    margin: auto;
 }
 
 
@@ -95,6 +107,30 @@ footer{
     background-color: var(--cor03);
     margin-top: 40px;
     width: 100%;
+}
+footer img#insta{
+    margin: auto;
+    padding: 0px;
+    width: 7.7%;
+    margin-bottom: 9px;
+}
+footer img#gmail{
+    padding: 0px 0px 0px 10px;
+    width: 10%;
+    color: white;
+    
+}
+footer img#git{
+    padding: 0px;
+    width: 10%;
+    height: 10%;
+
+}
+footer img:hover{
+    background-color: var(--cor00);
+    border-radius: 3px;
+    color: #004C4F;
+    transition-duration: .5s;
 }
 footer p {
     color: white;
