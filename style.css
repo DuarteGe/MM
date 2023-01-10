@@ -75,6 +75,7 @@ nav a{
 nav a:hover{
     background-color:var(--cor01);
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.459);
+    
 }
 
 main{
@@ -85,8 +86,9 @@ main{
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     min-width: 300px;
-    max-width: 1000px;
+    max-width: 800px;
 }
+
 main h1{
     padding-top: 40px;
     text-indent: 10px;
@@ -103,6 +105,7 @@ main h3{
 }
 
 
+
 footer{
     background-color: var(--cor03);
     margin-top: 40px;
@@ -111,19 +114,19 @@ footer{
 footer img#insta{
     margin: auto;
     padding: 0px;
-    width: 7.7%;
+    width: 50px;
+
     margin-bottom: 9px;
 }
 footer img#gmail{
     padding: 0px 0px 0px 10px;
-    width: 10%;
+    width: 65px;
     color: white;
     
 }
 footer img#git{
     padding: 0px;
-    width: 10%;
-    height: 10%;
+    width: 65px;
 
 }
 footer img:hover{
