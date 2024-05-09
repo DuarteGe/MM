@@ -89,7 +89,7 @@ main{
         margin-top:5% ; 
         margin-bottom: 15px;   
     }
-    main>h4{
+    main>h5{
         text-align: center;
         margin-bottom: 15px;
     }
@@ -101,12 +101,28 @@ main{
 
 
     }
+    main>img#Escada{
+        margin: auto;
+        width: 45vw;
+        height: 25vh;
+    }
+    main>img#pauta{
+        margin: auto;
+        width: 25vw;
+        height: 25vh;
+    }
+
+    main>img#gato{
+        margin: auto;
+        width: 40vw;
+        height: 25vh ;
+    }
 
 footer{
     background-color: var(--cor04);
 }
 
-footer p {
+footer>p {
     color: white;
     text-align: center;
     background-color: var(--cor04);
