@@ -101,18 +101,18 @@ main{
 
 
     }
-    main>img#Escada{
+    img#Escada{
         margin: auto;
         width: 45vw;
         height: 25vh;
     }
-    main>img#pauta{
+    img#Pauta{
         margin: auto;
-        width: 25vw;
-        height: 25vh;
+        width: 60vw;
+        height: 45vh;
     }
 
-    main>img#gato{
+    img#gato{
         margin: auto;
         width: 40vw;
         height: 25vh ;
