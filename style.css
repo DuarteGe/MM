@@ -111,10 +111,26 @@ main{
         width: 60vw;
         height: 45vh;
     }
+    img#sidore{
+        margin: auto;
+        width: 60vw;
+        height: 45vh;
+    }
+    img#pauta2{
+        margin: auto;
+        width: 55vw;
+        height: 45vh;
+    }
+    img#pautami{
+        margin: auto;
+        width: 55vw;
+        height: 45vh;
+    }
+
 
     img#gato{
         margin: auto;
-        width: 40vw;
+        width: 50vw;
         height: 25vh ;
     }
 
